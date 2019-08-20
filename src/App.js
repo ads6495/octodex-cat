@@ -10,7 +10,7 @@ class App extends Component {
           <Nav />
         </section>
 
-        <section>
+        <section className="flex-main">
           <Octodex />
         </section>
       </main>

@@ -4,14 +4,22 @@ class Nav extends Component {
   render() {
     return (
       <main className="main-nav">
-        <section>
-          <a>Home</a>
-          <a>FAQ</a>
+        <section className="indi-nav">
+          <div className="only-a">
+            <a href="https://octodex.github.com/">Octodex</a>
+          </div>
+          <div>
+            <a href="https://octodex.github.com/faq/">FAQ</a>
+          </div>
         </section>
 
-        <section>
-          <a>Follow us on Twitter</a>
-          <a>back to Github.com</a>
+        <section className="indi-nav">
+          <div className="only-a">
+            <a href="https://www.twitter.com">Follow us on Twitter</a>
+          </div>
+          <div>
+            <a href="https://www.github.com">back to Github.com</a>
+          </div>
         </section>
       </main>
     )
