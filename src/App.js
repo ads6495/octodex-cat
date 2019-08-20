@@ -1,10 +1,20 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Octodex from './components/Octodex'
+import Nav from './components/Nav'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <main>
+        <section>
+          <Nav />
+        </section>
+
+        <section>
+          <Octodex />
+        </section>
+      </main>
+    )
   }
 }
-
 export default App
